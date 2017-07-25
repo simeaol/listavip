@@ -10,18 +10,21 @@
 
 	<name>listavip</name>
 	<description>Spring boot project</description>
+
 	<dependencies>
 		<!--Dependência para o engine do Spring boot  -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<version>1.4.2.RELEASE</version>
+			<!--
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
 			</exclusions>
-			<version>1.4.2.RELEASE</version>
+			-->
 		</dependency>
 
 		<!-- Adding jetty dependency-->
